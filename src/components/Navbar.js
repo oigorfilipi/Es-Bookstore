@@ -4,16 +4,21 @@ import {
   faShoppingCart,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
+  const [show, setShow] = useState(false);
+
   return (
     <div className="Nav">
       <div className="Inner-Content">
         <h1 className="Logo">
-          BOOK<span>STORE</span>
+          <a href="/">
+            BOOK<span>STORE</span>
+          </a>
         </h1>
-        <nav>
+        <nav className={`${show && "show"}`}>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -40,7 +45,7 @@ export default function Navbar() {
           <button className="Shopping-Cart">
             <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
             <div className="Products-Count">12</div>
-            <button className="Menu-Button">
+            <button className="Menu-Button" onClick={() => setShow(!show)}>
               <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
             </button>
           </button>
