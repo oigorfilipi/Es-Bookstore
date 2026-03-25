@@ -134,6 +134,7 @@ nav ul li:hover {
 
 header {
   background-color: var(--dark-primary-color);
+  box-shadow: 0px 0px 10px var(--dark-color);
 }
 
 header .Inner-Content {
@@ -163,7 +164,7 @@ header .Left-Side p {
   background-color: var(--secondary-color);
   color: var(--dark-color);
   padding: 0.8rem 1rem;
-  border-radius: 8px;
+  border-radius: 100px;
   transition: all 0.4s;
   display: flex;
   max-width: 130px;
@@ -239,3 +240,116 @@ header .Right-Side img {
     display: none;
   }
 }
+/* END MEDIA : NAV E HEADER */
+
+/* START MAIN CONTENT*/
+
+.Page-Inner-Content {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.Product-List {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 280px);
+  place-content: center;
+  gap: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.Product {
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Product .Button {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.Product img {
+  cursor: pointer;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 0.4rem;
+  box-shadow: 0px 2px 5px #c7c6c6;
+}
+
+.Product img:hover {
+  transform: translateY(-8px);
+  transition: all 0.6s;
+}
+
+.Product .Name {
+  font-weight: bold;
+  margin-top: auto;
+}
+
+.Product .Price {
+  margin-top: 0.4rem;
+  margin-inline: auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.Product .Price span {
+  margin-top: 0.4rem;
+}
+
+.Product .Rate {
+  color: var(--secondary-color);
+  font-size: 1.3rem;
+}
+
+.Btn-Icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.8rem;
+  background-color: var(--secondary-color);
+  color: var(--dark-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.6s;
+}
+
+.Btn-Icon:hover {
+  background-color: var(--dark-secondary-color);
+  color: var(--lightt-color);
+}
+
+.Add-To-Cart-Btn {
+  background-color: var(--dark-primary-color);
+  color: var(--lightt-color);
+}
+
+.Add-To-Cart-Btn:hover {
+  background-color: var(--primary-color);
+  color: var(--lightt-color);
+}
+
+.Section-Tittle {
+  padding-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+.Section-Tittle h3 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.Section-Tittle .Underline {
+  width: 150px;
+  height: 2px;
+  background-color: var(--primary-color);
+  margin: 4px auto 0 auto;
+}
+
+/* PRODUCT */

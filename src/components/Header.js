@@ -8,7 +8,7 @@ export default function Header() {
     <header>
       <div className="Inner-Content">
         <div className="Left-Side">
-          <h2>Universos que jamais veremos na REALIDADE</h2>
+          <h2>O que existe ALÉM do que podemos ver...?</h2>
           <p>
             O mundo, a cada dia que passa, afunda em um mar de… algo que nem
             sabemos nomear. E a realidade… está cada vez mais difícil de

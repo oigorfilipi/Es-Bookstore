@@ -1,0 +1,110 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Gachiakuta Vol. 1",
+      "image": "/images/products/product-1.png",
+      "rating": 4,
+      "price": 40
+    },
+    {
+      "id": 2,
+      "name": "One Piece Vol. 1",
+      "image": "/images/products/product-2.png",
+      "rating": 4,
+      "price": 32
+    },
+    {
+      "id": 3,
+      "name": "A Biblioteca da Meia-Noite",
+      "image": "/images/products/product-4.png",
+      "rating": 4,
+      "price": 36
+    },
+
+    {
+      "id": 4,
+      "name": "Jujutsu Kaisen: Batalha de Feiticeiros Vol. 4",
+      "image": "/images/products/product-3.png",
+      "rating": 4,
+      "price": 36
+    },
+    {
+      "id": 5,
+      "name": "Box Clássicos de William Shakespeare",
+      "image": "/images/products/product-5.png",
+      "rating": 5,
+      "price": 48
+    },
+    {
+      "id": 6,
+      "name": "Orgulho e Preconceito",
+      "image": "/images/products/product-6.png",
+      "rating": 5,
+      "price": 15
+    },
+    {
+      "id": 7,
+      "name": "A empregada: Bem-vinda à família (Livro 1)",
+      "image": "/images/products/product-7.png",
+      "rating": 3,
+      "price": 43
+    },
+    {
+      "id": 8,
+      "name": "O segredo da empregada: Não espie por trás da porta (Livro 2)",
+      "image": "/images/products/product-8.png",
+      "rating": 5,
+      "price": 43
+    },
+    {
+      "id": 9,
+      "name": "A empregada está de olho: Cuidado com os vizinhos (Livro 3)",
+      "image": "/images/products/product-9.png",
+      "rating": 5,
+      "price": 43
+    },
+    {
+      "id": 10,
+      "name": "Gecko: Entre piratas e liberdade",
+      "image": "/images/products/product-10.png",
+      "rating": 4,
+      "price": 55
+    },
+    {
+      "id": 11,
+      "name": "Coração de héroi",
+      "image": "/images/products/product-11.png",
+      "rating": 4,
+      "price": 65
+    },
+    {
+      "id": 12,
+      "name": "Mistério no norte",
+      "image": "/images/products/product-12.png",
+      "rating": 5,
+      "price": 15
+    },
+    {
+      "id": 13,
+      "name": "O louco",
+      "image": "/images/products/product-13.png",
+      "rating": 5,
+      "price": 55
+    },
+    {
+      "id": 14,
+      "name": "Nadia Keane : O Tesouro Roubado",
+      "image": "/images/products/product-14.png",
+      "rating": 5,
+      "price": 15
+    },
+    {
+      "id": 15,
+      "name": "A Metamorfose",
+      "image": "/images/products/product-15.png",
+      "rating": 5,
+      "price": 13
+    }
+  ]
+}
